@@ -1,0 +1,4 @@
+notifications:
+  slack: personal-ctr2253:157cMB8zcaL8SM7FY1FvNrGi
+  on_success: always
+  on_failure: always
