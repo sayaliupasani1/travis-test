@@ -7,6 +7,6 @@ install:
 script:
 - pytest -v test-basic-calc.py
 notifications:
-  skack: personal-ctr2253:157cMB8zcaL8SM7FY1FvNrGi
+  slack: personal-ctr2253:157cMB8zcaL8SM7FY1FvNrGi
   on_success: always
   on_failure: always
