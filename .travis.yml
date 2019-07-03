@@ -1,3 +1,11 @@
+language: python
+python:
+  - "3.7"
+cache: pip3
+install:
+  - pip3 install pytest
+script:
+  - pytest
 notifications:
   slack: personal-ctr2253:157cMB8zcaL8SM7FY1FvNrGi
   on_success: always
