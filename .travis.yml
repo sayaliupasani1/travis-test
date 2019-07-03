@@ -1,15 +1,14 @@
 language: python
 python:
-  - "3.6"
+- '3.6'
 cache: pip3
 install:
-  - pip3 install pytest
+- pip3 install pytest
 script:
-  - pytest -v test-basic-calc.py
+- pytest -v test-basic-calc.py
 notifications:
-  #slack: personal-ctr2253:1
   slack:
-    rooms:
-      - secure: "Mnz5F3o2+RlQdoYozsAXuweifVPIdL1BxKAi0R5SJAfkUn5FuOsnwuivM0Mxvl24Xjv9i/68t1oGmYDGlesyeMbAiXuLCtitrBUw9gHbZedGDFietu0nOzoXFJZHehFswe89uI+vs8n95+B/UqlSecFdE4Ft8DDdwMuO1HOXOIjBFqLllIcGeFf7FDXjWDvIDfucVFyAAg4fUP3rtHJG+iy2Nq6TIFBbvsT8tv7o8jSZTCXp3rrIiAMUty3FUMJuxuP28NWCCxVB83tApoFnoXVXe4DKSZ8cjigyqagdtQGl6uJEUCtXeVgJcXVG4XEeaWHb0NLRB/Zel3DagrFyeROWX4G1vnXhmpdJKbDyMQP/z8fp39QEffHnLt+eWOWQIG+DdUM6MDvpCn7dUsCXpnxNWGV1nf3e2jRbST9692xaPQO/1X3CFYOYQUAvgkdQFqGwqelgJGe+ukJbIf52VsP86Ne9s6iZodN3yU0gbgYrO7ZQt6LDDNyhuai9RfNPtAgHSqv2kCU9O9Aw/GCHOzh4XLDJLQa/wHhLpp/yzXh3dH82EcPDQwRxOrvUZdPEjzyvXRAswvfoFOHeOG4cLP13p8N1/5NRg3BOILacjvteCdSRWujO4cr5nS2z6+dsMH6utW6TibVG4HLUNmWsbkFI0aMmN4/iF94ZrRcj9lI="
+    secure: LeukM405Tz1i9zaiWyoiJAhHYrPFZFTbODhUlL/rw8dwGjj57RTN+N4ADEsFD68nmPyVwM+icIGsYB6NqiBIif1EnXXm4LeytcIIxQNO9Iu2dyIfENe/8L8R5kZq4km3qynJNji6Y7L0CmnopmKxeJRK8/mVQsakkURD1LRL9L4b06Ou/T3fiGoBTlXQfgWfqe34bflYuA5usd9HvWiMWesDJwzQUJuXWdCpe2xYAJhm0fYlFg5+KNlK15YhAURGs4brXUCPugJjKexFpw+u0oSR4bLW8Ehmd7eoGi3L16FXTC27JvT1bnP1fW5iBZILAsRNaknaGM02TEUQ+ICmgTHvfq2zhxmgYOBOt/KaV7z672JDNJOKgcTKX5IHv5NDCTyd/fqyuD7PDEEc/XLan7vXkxN+n3dFxnGDcpNv013VIqCP/RWCbrS1c7XANmeJypX86eNKoAyV9CbZ+hYVyEBiRo3qaf7wXJiWKIi5xpSYbegQ06stsGqy98DRddwGgY/SqQX3hKIe/3FtymgS57l9V4FdeS48jdqrnIv23XVWxOrqWj/oaiovHafxnLkvNBHVBS/E9hrw0QCdtk6UKYY/m1aMQrEUPM2Gt2mBxp7Ye+Nxd2YvmsIhAcLKzqO3uhCofY3cz6yEKH5q6T+UQDirA/bASPUtsqbh5ix2qsI=
     on_success: always
     on_failure: always
+    
