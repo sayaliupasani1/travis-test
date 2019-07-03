@@ -7,9 +7,6 @@ install:
 script:
 - pytest -v test-basic-calc.py
 notifications:
-  slack:
-    rooms:
-      - secure: LeukM405Tz1i9zaiWyoiJAhHYrPFZFTbODhUlL/rw8dwGjj57RTN+N4ADEsFD68nmPyVwM+icIGsYB6NqiBIif1EnXXm4LeytcIIxQNO9Iu2dyIfENe/8L8R5kZq4km3qynJNji6Y7L0CmnopmKxeJRK8/mVQsakkURD1LRL9L4b06Ou/T3fiGoBTlXQfgWfqe34bflYuA5usd9HvWiMWesDJwzQUJuXWdCpe2xYAJhm0fYlFg5+KNlK15YhAURGs4brXUCPugJjKexFpw+u0oSR4bLW8Ehmd7eoGi3L16FXTC27JvT1bnP1fW5iBZILAsRNaknaGM02TEUQ+ICmgTHvfq2zhxmgYOBOt/KaV7z672JDNJOKgcTKX5IHv5NDCTyd/fqyuD7PDEEc/XLan7vXkxN+n3dFxnGDcpNv013VIqCP/RWCbrS1c7XANmeJypX86eNKoAyV9CbZ+hYVyEBiRo3qaf7wXJiWKIi5xpSYbegQ06stsGqy98DRddwGgY/SqQX3hKIe/3FtymgS57l9V4FdeS48jdqrnIv23XVWxOrqWj/oaiovHafxnLkvNBHVBS/E9hrw0QCdtk6UKYY/m1aMQrEUPM2Gt2mBxp7Ye+Nxd2YvmsIhAcLKzqO3uhCofY3cz6yEKH5q6T+UQDirA/bASPUtsqbh5ix2qsI=
-    on_success: always
-    on_failure: always
-
+  slack: personal-ctr2253:QEmplOTHFd34azsXQzzKzAub
+  on_success: always
+  on_failure: always
